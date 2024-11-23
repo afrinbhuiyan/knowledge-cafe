@@ -3,8 +3,7 @@ import { IoBookmarksOutline } from "react-icons/io5";
 import './Blog.css'
 const Blog = ({blog, handleAddToBookmark, handleMarkAsRead}) => {
     // console.log(blog)
-    const {title, cover, author, author_img, posted_date, reading_time, hashtags} = blog;
-
+    const {id, title, cover, author, author_img, posted_date, reading_time, hashtags} = blog;
     return (
         <div className='blog-container  space-y-4'>
             <img className='iamge' src={cover} alt={`cover picture of the title ${title} `} />
@@ -28,7 +27,7 @@ const Blog = ({blog, handleAddToBookmark, handleMarkAsRead}) => {
                 }
             </p>
             <button
-            onClick={() => handleMarkAsRead(reading_time)}
+            onClick={() => handleMarkAsRead(id, reading_time)}
             className='text-[#6047EC] font-semibold underline' 
             >Mark as read</button>
         </div>
