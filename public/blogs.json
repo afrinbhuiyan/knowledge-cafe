@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co.com/zbfPLVv/random-1.jpg",
+        "title": "The Journey to JavaScript",
+        "author": "John Doe",
+        "author_img": "https://i.pravatar.cc/50?img=1",
+        "posted_date": "2024-10-01",
+        "reading_time": 5,
+        "hashtags": ["#JavaScript", "#WebDevelopment", "#Programming"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co.com/JyCc8VJ/random-2.jpg",
+        "title": "Mastering CSS: A Guide",
+        "author": "Jane Smith",
+        "author_img": "https://i.pravatar.cc/50?img=2",
+        "posted_date": "2024-10-05",
+        "reading_time": 8,
+        "hashtags": ["#CSS", "#Design", "#Frontend"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co.com/N92vSHB/random-3.webp",
+        "title": "React Basics for Beginners",
+        "author": "Emily Brown",
+        "author_img": "https://i.pravatar.cc/50?img=3",
+        "posted_date": "2024-10-08",
+        "reading_time": 10,
+        "hashtags": ["#React", "#JavaScript", "#Frontend"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co.com/r3QSqxD/random-4.jpg",
+        "title": "Node.js: The Backend Revolution",
+        "author": "Michael Green",
+        "author_img": "https://i.pravatar.cc/50?img=4",
+        "posted_date": "2024-10-10",
+        "reading_time": 7,
+        "hashtags": ["#NodeJS", "#Backend", "#Programming"]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co.com/j45yMvs/random-5.jpg",
+        "title": "Understanding Async Programming",
+        "author": "Chris White",
+        "author_img": "https://i.pravatar.cc/50?img=5",
+        "posted_date": "2024-10-12",
+        "reading_time": 6,
+        "hashtags": ["#JavaScript", "#Async", "#WebDevelopment"]
+    }
+]
